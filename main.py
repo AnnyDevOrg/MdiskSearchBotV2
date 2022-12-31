@@ -44,9 +44,7 @@ async def message_handler(event):
         # Force Subscription
         if  not await get_user_join(event.sender_id):
             haha = await event.reply(f'''**Hey! {event.sender.first_name} 😃**
-
 **You Have To Join Our Update Channel To Use Me ✅**
-
 **Click Below Button To Join Now.👇🏻**''', buttons=Button.url('🍿Updates Channel🍿', f'https://t.me/{Config.UPDATES_CHANNEL_USERNAME}'))
             await asyncio.sleep(Config.AUTO_DELETE_TIME)
             return await haha.delete()
@@ -103,7 +101,6 @@ async def message_handler(event):
 
         if c <= 0:
             answer = f'''** Sorry {event.sender.first_name} No Results Found For {event.text}**
-
 **Please check the spelling on** [Google](http://www.google.com/search?q={event.text.replace(' ', '%20')}%20Movie) 🔍
 **Click On The Help To Know How To Watch**
     '''
