@@ -172,7 +172,6 @@ async def total_users(_, event: Message):
     total_users = await db.total_users_count()
     msg = f"""
     Users: {total_users} users
-
     """
     await event.reply_text(msg)
 
