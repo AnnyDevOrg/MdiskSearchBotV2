@@ -5,16 +5,16 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "24220817"))
-    API_HASH = os.getenv("API_HASH", "913324a9b48b811e8b57f5bc81baec97")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5924522282:AAEbv4FnPA2iBHEEue_3hDqhe4OhQuDmayg")
+    API_ID = int(os.getenv("API_ID", ""))
+    API_HASH = os.getenv("API_HASH", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOLEBu1dR7Py6aJNe_5_EwQG_Xe_01Ppk-4huBUgKGyehvbleJWZKKy0YJ12WhVpw6HL9OLXjKqrOM4garBID40w49fCYQqZ-kTlKcFyz-TxR02SBaktrsmWGiC_-m7tIvlobBfokgTMYZhIRKXP8AG24BOZwaC0hvCWVkcw7CykdKKfw1GzhrOKDSvajdTnqqBOzWiDPTSc93OC5V7nPe9OA9NwfDeS4RkbwJi6JU2p_zTBzzi215MISZo_qlDnnIO5DWuK1E-cGpdhobCGCec-i-vnzJjup2lzol1bVuFkZiHplL6Q9e-ELddnkPejutMpL_98o3PJyz-NFayePicHvB-A=")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001519972449")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "AnyBaiBot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5347548710"))
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "0"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
-    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "hindflix")
+    BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
 
@@ -29,15 +29,15 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001263322442")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://ohhyeahh:ohhyeahh@cluster0.teb1vk3.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001820905125"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-10012")
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-100182090"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
-    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "hindflix")
+    UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "")
     FORCE_SUB = os.getenv("FORCE_SUB", "False")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 180))
-    MDISK_API = os.getenv("MDISK_API", "Qu7jX9V0Sn3q1JHdxjPp")
+    MDISK_API = os.getenv("MDISK_API", "")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "31"))
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", """I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! 
 
